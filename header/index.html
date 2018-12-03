@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>绿景堂酒店山庄</title>
+<!-- Bootstrap核心CSS文件 -->
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<!--banner-->
+<link rel="stylesheet" href="css/zoomslider.css">
+<script src="style/js/modernizr-2.6.2.min.js"></script>
+<!--JQury UI-->
+<link rel="stylesheet" href="style/css/jquery-ui.min.css">
+<!--页面样式-->
+<link rel="stylesheet" href="style/css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="header">
+				<!--导航-->
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+								<span class="sr-only">切换导航</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="index.html"><img src="style/images/logo.png" alt="农庄酒店"></a>
+						</div>
+						
+						<div class="collapse navbar-collapse navbar-right" id="example-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="index.html" target="_blank">首页</a></li>
+								<li class="hidden-xs"><span>|</span></li>
+								<li><a href="reservation.html" target="_blank">客房服务</a></li>
+								<li class="hidden-xs"><span>|</span></li>
+								<li><a href="rooms.html" target="_blank">我们的服务</a></li>
+								<li class="hidden-xs"><span>|</span></li>
+								<li><a href="service.html" target="_blank">我们的资源</a></li>
+								<li class="hidden-xs"><span>|</span></li>
+								<li><a href="sale.html" target="_blank">关于我们</a></li>
+							</ul>
+						</div>
+						
+					</div><!--container-fluid-->
+				</nav>
+			</div><!--header-->
+		</div><!--container-->
+	</header>
+	
+	<section class="banner">
+		<div id="demo-1" data-zs-src='["style/images/01.jpg", "style/images/02.jpg", "style/images/03.jpg","style/images/04.jpg","style/images/en01.jpg","style/images/en02.jpg"]' data-zs-overlay="dots">
+			<div class="demo-inner-content">
+				<h1>欢迎来到绿景堂</h1>
+				<h2>Welcome to Our Village</h2>
+			</div>
+		</div>
+	</section>
+	
+	<section class="main _of_1">
+		<div class="container">
+			<!--online_reservation-->
+			<div class="online_reservation">
+				<!--reservation-->
+				<div class="col-md-9 reservation">
+					<ul>
+						<li class="li_of_1">
+							<h5>选择房型：</h5>
+							<select id="selectmenu">
+								<option>舒适单人间</option>
+								<option>标准双人间</option>
+								<option selected="selected">幸福大床房</option>
+								<option>温馨家庭房</option>
+								<option>豪华总统套房</option>
+							</select>
+						</li>
+						<li class="li_of_1">
+							<h5>入住日期：</h5>
+							<div class="book_date">
+								<form>
+									<input class="date" id="datepicker" type="text" value="DD/MM/YY" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'DD/MM/YY';}">
+								</form>
+							</div>
+						</li>
+						<li class="li_of_1">
+							<h5>退房日期：</h5>
+							<div class="book_date">
+								<form>
+									<input class="date" id="datepicker1" type="text" value="DD/MM/YY" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'DD/MM/YY';}">
+								</form>
+							</div>
+						</li>
+						<li class="li_of_2">
+							<h5>人数：</h5>
+							<select id="selectmenu1">
+								<option>1</option>
+								<option selected="selected">2</option>
+								<option>3</option>
+								<option>4</option>
+							</select>
+						</li>
+						<li class="li_of_3">
+							<div class="date_btn">
+								<form>
+									<input type="submit" value="立即预定">
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!--online_reservation end-->
+		</div><!--container end-->
+	</section>
+	
+	
+	
+<!-- jQuery文件 -->
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<!-- Bootstrap核心JavaScript文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--banner-->
+<script src="style/js/jquery.zoomslider.min.js"></script>
+<script src="style/js/modernizr-2.6.2.min.js"></script>
+<!--JQuery UI-->
+<script src="style/js/jquery-ui.min.js"></script>
+<script>
+	$(function() {
+		$( "#datepicker,#datepicker1" ).datepicker();
+		$( "#selectmenu,#selectmenu1" ).selectmenu();
+	});
+</script>
+<!--轮播-->
+<script>
+	$("#myCarousel").carousel({  
+		interval: 4000
+	});
+</script>
+
+</script>
+</body>
+</html>

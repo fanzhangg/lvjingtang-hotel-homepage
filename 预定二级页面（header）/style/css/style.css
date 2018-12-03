@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", "Arial Narrow", "Arial";
+}
+
+.main_1 , .main_2{
+	width:1280px;
+	height: 501px;
+}
+
+.main_1 .div1{
+	width:660px;
+	float:left;
+}
+
+.main_1 .div2{
+	width:620px;
+	float:left;
+}
+
+.main_1 .div2 .title_1{
+	font-size:58px;
+	margin-top: 100px;
+	margin-left: 28px;
+}
+
+.main_1 .div2 .description{
+	margin-top: 43px;
+	margin-left: 28px;
+	font-size: 24px;
+	width: 500px;
+	cellspacing: 20px;
+}
+
+.main_1 .div2 .price{
+	color: #f81615;
+	font-size: 90px;
+	margin-top: 34px;
+	margin-left: 28px;
+}
+
+
+.main_2{
+	width:1150px;
+	height: 597px;
+}
+
+.main_2 .facilities{
+	margin-left: 238px;
+	margin-top: 63px;
+	width:915px;
+	text-align: left;
+	cellspacing:98px;
+}
+
+.main_2 .facilities .tr1{
+	margin-left: 98px;
+}
+
+.main_2 .facilities .tr2{
+	font-size: 20px;
+	margin-top:10px;
+}
+
+.main_2 .facilities .tr1 .td1{
+	width:224px;
+}
+.main_2 .facilities .tr1 .td2{
+	width:229px;
+}
+.main_2 .facilities .tr1 .td3{
+	width:218px;
+}
+.main_2 .facilities .tr1 .td4{
+	width:244px;
+}
+
+.main_2 .texts .notice_text{
+	margin-top: 22px;
+	margin-left: 147px;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+
+.main_3{
+	width: 1280px;
+	height:552px;
+}
+
+.main_3 .reservation{
+	margin-top: 88px;
+	margin-left: 138px;
+}
+
+.main_3 .reservation .t1{
+	font-size: 28px;
+}
+
+.main_3 .reservation .date{
+	width: 470px;
+	height: 56px;
+	font-size: 20px;
+	color: gray;
+}
+
+.main_3 .reservation .selectmenu{
+	width: 224px;
+	height: 56px;
+	font-size: 20px;
+	color: gray;
+}
+
+.main_3 .reservation .calendar1{
+	display: inline-block;
+	float:left;
+}
+
+.main_3 .reservation .calendar2{
+	width:39px;
+	height:36px;
+	margin-top: 10px;
+}
+
+.main_3 .reservation .date_btn{
+	text-align: center;
+	margin-top: 60px;
+}
+
+
+.main_4{
+	margin-left: 394px;
+	height:170px;
+}
+
+.main_4 .tail{
+	font-size: 14px;
+	margin-top: 38px;
+	line-height: 18px;
+	text-align: center;
+	color: grey;
+}
+
+
+#pic1{
+	width: 509px;
+	height: 338px;
+	margin-top: 82px;
+	margin-left: 146px;
+}
+
+#computer_text{
+	color: #fb8400;
+}
+
+#title_2{
+	font-size:30px;
+	margin-left: 147px;
+	margin-top: 63px;
+}
+
+/*#btn{
+	font-size: 60px;
+	width:388px;
+	height: 75px;
+	background-image: url(images/10.png);
+}*/

@@ -1,0 +1,270 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", "Arial Narrow", "Arial";
+}
+a{
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+ul, li{
+	list-style: none;
+}
+.ui-selectmenu-button.ui-button, input, textarea{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	background: none;
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 6px;
+	border: 1px solid #dfdfdf;
+	box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-o-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+}
+.ui-front{
+	z-index: 999;
+}
+.ui-button .ui-icon{
+	top: 50%;
+	margin-top: -8px;
+	right: 2px;
+}
+.ui-button .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon{
+	background: no-repeat url(../images/select_arrow.png) center;
+}
+input.date{
+	background: no-repeat url(../images/cal-icon.png) right center #fff;
+}
+.date_btn input[type="submit"], input[type="submit"]{
+	background: #fa851e;
+	border: none;
+	box-shadow: none;
+	text-align: center;
+	padding: 0;
+	color: #fff;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+.date_btn:hover input[type="submit"], input[type="submit"]:hover{
+	background: #f56b0f;
+}
+.ui-widget-header .ui-icon-circle-triangle-w{
+	background: no-repeat center;
+	background-image: url(../images/icon_prev.png);
+}
+.ui-widget-header .ui-icon-circle-triangle-e{
+	background: no-repeat center;
+	background-image: url(../images/icon_next.png);
+}
+
+
+/*------------header------------*/
+header{
+	background: #1a0e00;
+}
+header .header .navbar{
+	border-radius: 0;
+	border: none;
+	background: none;
+	margin: 0;
+}
+header .header .navbar .container-fluid{
+	padding: 2% 0;
+}
+header .header .navbar .navbar-brand{
+	height: auto;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+header .header .navbar .navbar-nav a{
+	color: #fff;
+	background: none;
+}
+header .header .navbar .navbar-nav a:hover, header .header .navbar .navbar-nav li.active a{
+	color: #ffbe05;
+	background: none;
+}
+header .header .navbar .navbar-nav li span{
+	line-height: 20px;
+	padding: 15px 0;
+	display: block;
+	color: #555;
+	font-size: 18px;
+}
+
+/*------------home page------------*/
+/*banner*/
+.banner .demo-inner-content{
+	width: 100%;
+	top: 50%;
+	margin-top: -100px;
+}
+.banner .demo-inner-content h1, .banner .demo-inner-content h2{
+	margin: 0;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1;
+}
+.banner .demo-inner-content h1{
+	/* Change the font-size from 40px to 98 */
+	font-size: 98px;
+	margin-bottom: 30px;
+	/* Change the font-weight to bold */
+	font-weight: bold;
+	/* Add the text shadow */
+	text-shadow: 0 0 5px #000, 0 0 10px #0f0f0f, 0 0 40px #000, 0 0 70px #383838;
+}
+.banner .demo-inner-content h2{
+	/* Change the font-size to 58px */
+	font-size: 58px;
+	/* Change the font-weight to bold */
+	font-weight: bold;
+	/* Add the text shadow */
+	text-shadow: 0 0 5px #000, 0 0 10px #0f0f0f, 0 0 40px #000, 0 0 70px #383838;
+}
+.banner .demo-inner-content h1 span{
+	color: #e0b575;
+}
+.banner .demo-inner-content h1 span img{
+	height: 96px;
+	vertical-align: middle;
+}
+@media(max-width: 768px){
+	.banner .demo-inner-content h1{
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	.banner .demo-inner-content h2{
+		font-size: 16px;
+	}
+	.banner .demo-inner-content h1 span img{
+		height: 56px;
+	}
+}
+/*common*/
+section.main{
+	/* Set background color to no color
+	/*background: #ebebeb;*/
+}
+section.main._of_1{
+	padding: 0;
+	/* Set the background color to rgba(0,0,0,0.6)*/
+	background-color: rgba(0,0,0,0.6);
+	/* Change the width to 100%, so that the width of the container will be equal to the width of the screen */
+	width:100%;
+	/* Move up the container, so that the cotainer is put at the buttom of the banner */
+	margin-top: -117.594px;
+	/* Change the position to absolute */
+	position:absolute;
+	/* Change the z-index to 999, so that the container will float upon the banner */
+	z-index: 999;
+}
+.main, .main_of_2{
+	padding: 60px 0;
+}
+.main .container{
+	position: relative;
+	z-index: 99999;
+}
+section.main .homepage_section_tiele h1, section.main_of_2 .homepage_section_tiele h1{
+	text-align: center;
+	font-weight: 300;
+	margin: 0;
+	line-height: 1;
+	padding: 40px 0;
+}
+section.main .homepage_section_tiele h2, section.main_of_2 .homepage_section_tiele h2{
+	text-align: center;
+	font-weight: 300;
+	margin: 0;
+	line-height: 1;
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+/*booking*/
+.main .online_reservation{
+	position: relative;
+	overflow: hidden;
+	/*margin-top: -56px;*/
+	/*margin-bottom: 20px;*/
+	-moz-box-shadow: 0 0 4px rgb(97, 97, 97);
+	-o-box-shadow: 0 0 4px rgb(97, 97, 97);
+}
+.main .online_reservation .booking_room{
+	background: #a37f55;
+	padding: 2%;
+	color: #fff;
+}
+.main .online_reservation .booking_room h4{
+	font-size: 18px;
+	line-height: 1;
+	margin: 0;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+.main .online_reservation .booking_room p{
+	margin: 0;
+	line-height: 1.5;
+	text-align: justify;
+}
+.main .online_reservation .reservation{
+	padding: 2%;
+	/* Change the width to 100% */
+	width:100%;
+}
+.main .online_reservation .reservation ul{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.main .online_reservation .reservation li{
+	float: left;
+	padding-right: 15px;
+	margin-bottom: 8px;
+}
+.main .online_reservation .reservation li:last-child{
+	padding-right: 0;
+}
+.main .online_reservation .reservation li.li_of_1{
+	width: 23.33333%
+}
+.main .online_reservation .reservation li.li_of_2{
+	width: 10%;
+}
+.main .online_reservation .reservation li.li_of_3{
+	width: 20%;
+}
+@media(max-width: 768px){
+	.main .online_reservation .reservation li{
+		padding-right: 0;
+	}
+	.main .online_reservation .reservation li.li_of_1{
+		width: 100%;
+	}
+	.main .online_reservation .reservation li.li_of_2{
+		width: 100%;
+	}
+	.main .online_reservation .reservation li.li_of_3{
+		width: 100%;
+	}
+}
+.main .online_reservation .reservation li h5{
+	margin: 0;
+	margin-bottom: 10px;
+	line-height: 1;
+	color:#fff;
+}
+.main .online_reservation .reservation .date_btn input[type="submit"]{
+	margin-top: 24px;
+}
